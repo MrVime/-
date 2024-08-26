@@ -1,0 +1,12 @@
+print('1st program')
+print((9**0.5)*5,'\n')
+print('2nd program')
+print((9.99 > 9.98) and (1000 != 1001),'\n')
+print('3rd program')
+print(2*2+2)
+print(2*(2+2))
+print((2*2+2) == (2*(2+2)),'\n')
+print('4th program')
+line = '123.456'
+print(line[4])
+print(float(line)*10)
