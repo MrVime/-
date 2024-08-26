@@ -10,3 +10,4 @@ print('4th program')
 line = '123.456'
 print(line[4])
 print(float(line)*10)
+print(int(float(line)*10)%10,)
