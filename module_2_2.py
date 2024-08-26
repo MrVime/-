@@ -1,9 +1,9 @@
-first = input('Введите целые числа: ')
-second = input('Введите целые числа: ')
-third = input('Введите целые числа: 1')
+first = int(input('Введите целые числа: '))
+second = int(input('Введите целые числа: '))
+third = int(input('Введите целые числа: '))
 if first == second and second == third:
     print(3)
-elif first == second or second == third:
+elif first == second or second == third or first == third:
     print(2)
 else:
     print(0)
